@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <main>
+    <form action="">
+        <!-- Digite seu nome aqui --->
+        <label for="nome">Nome</label> <br>
+        <input placeholder="Digite seu nome aqui..." id="nome" type="text" required="true"><br>
+        <!-- Digite seu email aqui -->
+        <label for="email">Email</label> <br>
+        <input placeholder=" Digite seu email aqui..." type="text" id="email" required="true"><br>
+        <!-- Descrição -->
+        <label for="descricao">Descrição</label> <br>
+        <textarea placeholder="Fale mais sobre você aqui..."  id="descricao"> </textarea><br>
+        <!-- Selecione o seu Modulo -->
+        <label for="modulo">Módulo</label><br>
+        <select id="modulo" name="modulo" required="true">
+            <option value="">Escolher módulo</option>
+            <option value="mod1">Módulo 1</option>
+            <option value="mod2">Módulo 2</option>
+            <option value="mod3">Módulo 3</option>
+            <option value="mod4">Módulo 4</option>
+            <option value="mod5">Módulo 5</option>
+            <option value="mod6">Módulo 6</option>
+        </select><br>
+        <!-- Digite sua senha, ok -->
+        <label for="senha">Senha</label><br>
+        <input placeholder="Digite sua senha aqui" . id="senha" type="password" required="true"><br>
+        <!-- Digite sua senha novamente -->
+        <label for="senhaConfirmada">Confirmar senha</label><br>
+        <input placeholder=" Digite sua senha novamente aqui..." id="senhaConfirmada" type="password"
+            required="true"><br>
+        <!-- Novidades no e-mail -input radio ok-->
+        <label>Deseja receber novidades em seu e-mail?</label><br>
+        <label for="sim">Sim</label>
+        <input type="radio" value="sim" name="receberEmail" id="sim" required="true">
+
+        <label for="não">Não</label>
+        <input type="radio" value="não" name="receberEmail" id="não"><br>
+        <!-- Botão de cadastrar -->
+        <button type="submit">Cadastrar</button>
+
+
+
+
+
+    </form>
+</main>
+</body>
+</html>
